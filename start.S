@@ -5,8 +5,6 @@
 .equ LOOP_COMPARE, 	0xfffff		@ How much times should wait: be called
 								@ before changing the LED state?
 
-.equ STACKINIT, 0x20005000
-
 .cpu cortex-m3
 .syntax unified
 
